@@ -719,19 +719,10 @@ p {
   margin-top: 5px;
   margin-bottom: 15px;
 }
-.row-link {
-  display: flex;
-  margin-top: 50px;
-  align-items: center;
-}
 .row-no-gutters {
   margin-right: 0;
   margin-left: 0;
   margin-top: 20px;
-}
-.link {
-  width: 33%;
-  text-align: left;
 }
 .socials {
   display: flex;
@@ -745,6 +736,9 @@ p {
   display: none;
 }
 
+.black {
+  color: #000000 !important;
+}
 /* Page 2 */
 
 .bloc__contact {
@@ -1101,20 +1095,10 @@ h4 {
 
   /* ----------------------------- Reworked ----------------------------- */
 
-  .row-link {
-    display: flex;
-    flex-direction: column;
-    margin-top: 50px;
-    align-items: center;
-  }
   .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
     margin-top: 20px;
-  }
-  .link {
-    width: 33%;
-    text-align: left;
   }
   .socials {
     display: flex;
